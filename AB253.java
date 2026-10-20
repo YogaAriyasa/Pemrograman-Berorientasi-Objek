@@ -1,9 +1,13 @@
 /*
-1. Permasalahan komputasi yang diselesaikan program ini adalah menghitung seluruh komponen
+1. Jelaskan permasalahan komputasi yang diselesaikan program ini.
+Jawab:
+Permasalahan komputasi yang diselesaikan program ini adalah menghitung seluruh komponen
 gaji karyawan, menentukan gaji pokok, bonus serta pajak karyawan secara otomatis melalui
 kode program yang dibuat. Seperti contoh, program menghitung gaji bersih karyawan (Penghasilan kotor
 dikurangi pajak) secara otomatis menggunakan perintah "-" sehingga kita tidak perlu menghitung secara manual.
-2. Input: Kita harus menginput seluruh data yang diperlukan dan akan digunakan dalam perhitungan,
+2. Uraikan permasalahan dari input, proses, output.
+Jawab:
+Input: Kita harus menginput seluruh data yang diperlukan dan akan digunakan dalam perhitungan,
 data yang harus diinput meliputi data karyawan (Golongan, durasi lembur), gaji pokok karyawan, upah lembur,
 bonus untuk durasi lembur tertentu, dan pajak yang dikenakan.
 Proses: Dalam program ini, proses yang dijalankan adalah menghitung aspek tertentu menggunakan aspek-aspek
@@ -12,7 +16,9 @@ hasil dari gaji pokok + upah lembur + bonus durasi lembur (jika lembur selama le
 bersih yang dihasilkan dari penghasilan kotor dikurangi pajak.
 Output: Output atau hasil dari program ini adalah menyimpan dan menampilkan data, gaji pokok, bonus, dan
 pajak karyawan.
-3. Tipe data pada setiap variabel beserta alasan pemilihannya:
+3. Jelaskan alasan pemilihan tipe data setiap variabel.
+Jawab:
+Tipe data pada setiap variabel beserta alasan pemilihannya:
 Golongan = string: Karena golongan hanya merupakan variabel 1 huruf yang tidak memerlukan perhitungan matematika.
 Durasi lembur = float: Karena durasi lembur merupakan angka yang akan digunakan untuk menentukan bonus, dan disini
 saya menggunakan float karena terdapat kemungkinan durasi lembur dalam satuan menit karyawan menjadi penentu bonus
@@ -33,14 +39,20 @@ Penghasilan kotor = double: Karena penghasilan kotor merupakan angka yang besar 
 desimal karena adanya persentase pajak dan bonus.
 Gaji bersih = double: Karena gaji bersih merupakan angka yang besar dan terdapat kemungkinan melibatkan angka desimal
 karena adanya persentase pajak dan bonus.
-4. Karena kondisi karyawan dapat berbeda sehingga memerlukan struktur kondisional untuk menentukan sesuatu yang berbeda
+4. Jelaskan mengapa struktur kondisional diperlukan.
+Jawab:
+Karena kondisi karyawan dapat berbeda sehingga memerlukan struktur kondisional untuk menentukan sesuatu yang berbeda
 pada kondisi yang berbeda juga. Seperti contoh karyawan yang bernama Andi merupakan golongan A dan karyawan yang bernama
 Budi merupakan golongan B, sehingga dibuatkan beberapa kondisi, yaitu kondisi ketika golongannya A dan kondisi ketika
 golongannya B, yang dimana perbedan golongan tersebut akan membedakan gaji pokok yang diterima karyawan.
-5. Perulangan dilakukan untuk membuat program lebih singkat dan efisien karena perhitungan gaji dapat dilakukan untuk
+5. Jelaskan keuntungan penggunaan perulangan dibanding menulis kode manual.
+Jawab:
+Perulangan dilakukan untuk membuat program lebih singkat dan efisien karena perhitungan gaji dapat dilakukan untuk
 lima karyawan secara otomatis. Dengan perulangan, kode tidak perlu ditulis berulang kali secara manual pada kondisi
 tertentu. Contohnya untuk menampilkan semua nama karyawan, kita cukup mengetik perintah perulangan sebanyak satu kali.
-6.Perhitungan manual untuk karyawan Andi:
+6. Lakukan perhitungan manual untuk satu karyawan, lalu bandingkan dengan output program.
+Jawab:
+Perhitungan manual untuk karyawan Andi:
 Golongan: A
 Durasi lembur: 12 jam
 Gaji pokok = Rp5.000.000
@@ -50,7 +62,9 @@ Penghasilan kotor = Rp5.000.000 + Rp600.000 + Rp500.000 = Rp6.100.000
 Pajak = 11% × Rp6.100.000 = Rp671.000
 Gaji bersih = Rp6.100.000 − Rp671.000 = Rp5.429.000
 Hasil perhitungan manual tersebut sama dengan hasil yang ditampilkan program untuk Andi, yaitu Rp5.429.000.
-7. Karyawan yang mendapatkan gaji bersih tertinggi adalah Andi, yaitu sebesar Rp5.429.000. Hal ini terjadi karena Andi
+7. Analisa siapa yang mendapatkan gaji tertinggi, dan kenapa bisa mendapatkan gaji tertinggi tersebut. jelaskan!
+Jawab:
+Karyawan yang mendapatkan gaji bersih tertinggi adalah Andi, yaitu sebesar Rp5.429.000. Hal ini terjadi karena Andi
 memiliki gaji pokok golongan A sebesar Rp.5.000.000 dan durasi lembur 12 jam, sehingga mendapatkan bonus sebesar
 Rp.500.000 dan upah lembur sebesar Rp600.000. Meskipun Andi dikenakan pajak sebesar Rp671.000, gaji bersihnya tetap menjadi
 yang tertinggi dibandingkan karyawan lainnya.
